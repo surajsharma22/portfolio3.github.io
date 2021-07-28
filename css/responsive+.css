@@ -1,0 +1,51 @@
+@media only screen and (max-width: 550px) {
+  .nav_links {
+    display: none;
+  }
+  .container .circle {
+    width: 251px;
+    height: 251px;
+    left: 5vw;
+  }
+  .container .circle img {
+    height: 300px;
+    left: -13px;
+  }
+  .container .introduction {
+    font-size: smaller;
+    text-align: center;
+  }
+  footer .bottom {
+    position: relative;
+    padding-top: 15%; /*change to 10% if need */
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 950px) {
+  .container .circle {
+    width: 251px;
+    height: 251px;
+  }
+  .container .circle img {
+    height: 300px;
+    left: -13px;
+  }
+  .container .introduction {
+    font-size: smaller;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .introduction {
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+  }
+  .container .circle {
+    left: 25vw;
+    top: 1vh;
+  }
+  footer .bottom {
+    position: relative;
+    padding-top: 5%;
+  }
+}
